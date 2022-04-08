@@ -1,6 +1,6 @@
 importScripts('js/sw-acces.js');
 
-const myUrl = '';
+const myUrl = 'https://imjosuecastrejon.github.io/pwa/';
 
 const STATIC_CACHE = 'static-v1';
 const DYNAMIC_CACHE = 'dynamic-v1';

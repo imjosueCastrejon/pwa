@@ -27,11 +27,11 @@ self.addEventListener('activate', event => {
 
 
 var url = window.location.href;
-var pwaLocation = '';
+var pwaLocation = 'https://imjosuecastrejon.github.io/pwa/';
 
 if (navigator.serviceWorker) {
     if (url.includes('localhost')) {
-        pwaLocation = './sw.js';
+        pwaLocation = '/sw.js';
     }
     navigator.serviceWorker.register(pwaLocation);
 }
